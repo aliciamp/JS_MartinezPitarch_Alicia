@@ -1,0 +1,71 @@
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: rgb(246, 241, 209);
+    padding-top: 100px;
+}
+
+
+main {
+    font-weight: 300;
+    border: 1px solid black;
+    padding: 100px;
+    width: 35%;
+    margin: auto;
+    text-align: left;
+
+    position: relative;
+}
+
+main h1 {
+    color: rgb(76, 36, 59);
+    font-weight: 900;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+
+main form {
+    font-size: 16px;
+    color: rgb(76, 36, 59);
+    font-weight: 300;
+}
+
+main form input{
+    background-color: rgb(246, 241, 209);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    width: 50%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+main form input:focus{
+    background-color: rgb(221, 216, 188);
+   
+}
+
+
+main form #submit_dni{
+    background-color: rgb(229, 68, 109);
+    border-width: 0px;
+    border-radius: 30px;
+    color: white;
+    width: 25%;
+    height: auto;
+    transition: all 0.2s;
+}
+
+
+main form #submit_dni:hover{
+    background-color: rgba(255, 255, 255, 255);
+    color: black;
+    transition: all 0.2s;
+    cursor: pointer;
+}
